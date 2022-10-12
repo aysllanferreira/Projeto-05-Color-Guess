@@ -1,1 +1,3 @@
-# Projeto-05-Color-Guess
+# Projeto Color Guess
+
+![Project Color Guess](./colorGuess.png)
