@@ -46,11 +46,13 @@ const gameSituation = () => {
     getCircles[i].addEventListener('click', () => {
       if (getCircles[i].style.backgroundColor === theColour) {
         getAnswer.innerHTML = 'Acertou!';
+        getAnswer.style.color = 'green';
         let getActualScore = parseInt(getScorePar.innerHTML, 10);
         getActualScore += 3;
         getScorePar.innerHTML = getActualScore;
       } else {
         getAnswer.innerHTML = 'Errou! Tente novamente!';
+        getAnswer.style.color = 'red';
       }
     });
   }

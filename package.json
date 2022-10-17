@@ -1,0 +1,25 @@
+{
+  "name": "projeto-05-color-guess",
+  "version": "1.0.0",
+  "description": "[Link do Projeto](https://aysllanferreira.github.io/Projeto-05-Color-Guess/) ![Project Color Guess](./colorGuess.png)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aysllanferreira/Projeto-05-Color-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aysllanferreira/Projeto-05-Color-Guess/issues"
+  },
+  "homepage": "https://github.com/aysllanferreira/Projeto-05-Color-Guess#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
