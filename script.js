@@ -48,13 +48,14 @@ const gameSituation = () => {
   const getCircles = document.querySelectorAll('.ball');
   getAnswer.innerHTML = 'Escolha uma cor';
   const theColour = colorToGuess;
+  let getActualScore = parseInt(getScorePar.innerHTML, 10);
 
   for (let i = 0; i < getCircles.length; i += 1) {
     getCircles[i].addEventListener('click', () => {
       if (getCircles[i].style.backgroundColor === theColour) {
         getAnswer.innerHTML = 'Acertou!';
         getAnswer.style.color = 'green';
-        let getActualScore = parseInt(getScorePar.innerHTML, 10);
+
         getActualScore += 3;
         getScorePar.innerHTML = getActualScore;
         resets();
