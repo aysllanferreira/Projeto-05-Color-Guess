@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +12,7 @@ body{
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+  font-family: 'Roboto Slab', serif;
 }
 
 @keyframes gradient {
@@ -36,7 +40,7 @@ main {
 
 main h1 {
   margin-bottom: 15px;
-  font-size: 60px;
+  font-size: 75px;
   border: solid 1px rgba(0, 0, 0, 0.295);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.589);
   color: white;
@@ -45,10 +49,11 @@ main h1 {
   text-align: center;
   padding: 50px 0;
   width: 450px;
+  font-family: 'Lobster', cursive;
 }
 
 main div #rgb-color{
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
 }
