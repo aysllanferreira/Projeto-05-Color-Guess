@@ -36,6 +36,13 @@ const paintCircles = () => {
   }
 };
 
+const resets = () => {
+  colorToGuess = generateRandomColour();
+  getPar.innerHTML = colorToGuess;
+  gameSituation();
+  paintCircles();
+};
+
 // Verifica se acertou ou errou o Guess!
 const gameSituation = () => {
   const getCircles = document.querySelectorAll('.ball');
@@ -50,9 +57,11 @@ const gameSituation = () => {
         let getActualScore = parseInt(getScorePar.innerHTML, 10);
         getActualScore += 3;
         getScorePar.innerHTML = getActualScore;
+        resets();
       } else {
         getAnswer.innerHTML = 'Errou! Tente novamente!';
         getAnswer.style.color = 'red';
+        getScorePar.innerHTML = 0;
       }
     });
   }
